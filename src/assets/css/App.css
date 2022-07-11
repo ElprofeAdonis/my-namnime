@@ -1,0 +1,228 @@
+.app {
+  padding: 20px;
+}
+/* heder de la app */
+.app .header h1 {
+  color: #eb5757;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 52px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.app .header p {
+  color: #828282;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+}
+/*Termina header*/
+
+/* main de la app*/
+main {
+  display: flex;
+  grid-template-columns: 2fr 4fr;
+  gap: 8px;
+  margin: 20px 0 0 0;
+}
+
+.my-randon {
+  display: flex;
+  grid-template-columns: 2fr 4fr;
+  gap: 440px;
+  margin: 20px 0 0 0;
+}
+/*termina main*/
+
+.my-list {
+  border: 2px solid #e5e5e5;
+  border-radius: 15px;
+  min-height: calc(100vh - 100px);
+  padding: 15px;
+}
+
+.my-randon {
+  /* border: 2px solid #e5e5e5; */
+  border-radius: 15px;
+  min-height: calc(100vh - 100px);
+  padding: 15px;
+}
+
+.my-list .list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my-randon .my-anime .description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.my-list .items-container {
+  height: 100%;
+  margin: 15px 0 0 0;
+}
+
+.my-list .list-header h2 {
+  margin: 0;
+  color: #4f4f4f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+.my-randon .my-anime .description .strup {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.my-randon .my-anime .description .strup h3 {
+  color: #333333;
+}
+.my-randon .my-anime .description .strup h4 {
+  color: #4f4f4f;
+}
+
+.my-randon .my-anime .description .strupp {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+}
+.my-randon .my-anime .description .strupp h3 {
+  color: #000000;
+}
+.my-randon .my-anime .description .strupp h4 {
+  color: #4f4f4f;
+}
+
+/* .my-randon .imagen {
+  margin: 0;
+  color: #4f4f4f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 38px;
+} */
+
+.my-list .list-header span {
+  margin: 0;
+  color: #bdbdbd;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+}
+/* .my-randon .my-anime {
+  margin: 0;
+  color: #4F4F4F;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+} */
+.item {
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.item:hover {
+  background-color: #007fff;
+  color: #fff;
+}
+
+.item h4 {
+  color: #4f4f4f;
+  margin: 0;
+}
+
+.item:hover h4 {
+  color: #fff;
+}
+
+.item p {
+  color: #bdbdbd;
+  margin: 0;
+}
+
+.item:hover p {
+  color: #fff;
+}
+
+.imagen img {
+  margin: 0;
+  position: absolute;
+  width: 308px;
+  height: 540px;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.description {
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.addTo {
+  position: absolute;
+  width: 1163px;
+  height: 625px;
+}
+
+.text {
+  position: absolute;
+  width: 454px;
+  height: 364px;
+
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: #4f4f4f;
+  inline-size: ;
+}
+.animee:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+}
+.strup h4:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(55, 163, 149);
+}
+.text:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: blue;
+}
+.remove button {
+  font-weight: 500;
+
+  height: 65px;
+  border-radius: 8px;
+  background: #007fff;
+  position: absolute;
+}
+footer p {
+  text-align: right;
+  padding: 64px;
+  margin: 0;
+}
